@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!ELEMENT browser (#PCDATA|link|session)*>
+<!ATTLIST browser
+  name  CDATA   #REQUIRED
+>
+
+<!ELEMENT session (#PCDATA)* >
+<!ATTLIST session
+  data    CDATA  #IMPLIED
+>
+<!ELEMENT link (#PCDATA)* >
+<!ATTLIST link
+  hash    CDATA  #REQUIRED
+  url     CDATA  #IMPLIED
+  title   CDATA  #IMPLIED
+  thumb	  CDATA  #IMPLIED
+  owner	  CDATA  #IMPLIED
+  color   CDATA  #IMPLIED
+  deleted CDATA  #IMPLIED
+>
