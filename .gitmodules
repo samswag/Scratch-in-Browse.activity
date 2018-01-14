@@ -1,0 +1,6 @@
+[submodule "collabwrapper"]
+	path = collabwrapper
+	url = https://github.com/samdroid-apps/collabwrapper
+[submodule "scratch"]
+	path = scratch
+	url = https://github.com/EmilyOng/Scratch.activity
